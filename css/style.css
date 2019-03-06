@@ -1,0 +1,242 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: 400;
+    padding-top: 100px;
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+ul {
+    margin: 20px 0;
+    padding: 0;
+    font-size: 1.375rem;
+    line-height: 1.3;
+    margin-left: 21px;
+}
+
+.bg_full {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 112px;
+    font-weight: bold;
+    color: #0076aa;
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 62px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 41px;
+    font-weight: 300;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 28px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+
+.black {
+    color: #000000;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*================================
+         Main Home Styling
+==================================*/
+
+.main_home {
+    background-image: url(../img/banner.jpg);
+    padding: 362px 0px 348px;
+    position: relative;
+}
+
+.main_home:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #000;
+    opacity: .3;
+    z-index: 1;
+}
+
+.main_text {
+    max-width: 600px;
+}
+
+.main_text {
+    position: absolute;
+    top: 23%;
+    left: 4%;
+}
+
+.home_heading {
+    font-size: 56px;
+    line-height: 62px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.home_heading h2 {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.home_heading p {
+    margin-bottom: 30px;
+}
+
+.btn_home .btn {
+    height: 65px;
+    min-width: 250px;
+    padding: 18px 40px;
+    font-size: 1.65rem;
+    font-weight: 700;
+    background: #0499d6;
+    color: #fff;
+    border-radius: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}
+
+.btn_home a:hover {
+    background: #3db3e3;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.about_text h2 {
+    color: #0499d6;
+}
+
+
+/*================================
+    // Main Home Styling End
+==================================*/
+
+
+/*================================
+            About Styling
+==================================*/
+
+.about_section {
+    background: #fff;
+    position: relative;
+    padding: 136px 0px 150px;
+}
+
+.about_section:before {
+    content: '';
+    display: block;
+    height: 170px;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    background: url(../img/section_curv1.png);
+    background-size: 100% 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+
+.about_home {
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+
+/*================================
+         // About End
+==================================*/
+
+
+/*================================
+        About 2 Styling
+==================================*/
+
+.about2_section {
+    background: #fff;
+    position: relative;
+    padding: 234px 0px 20px;
+    background-image: url(../img/maxresdefault.jpg);
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.about2_section:before {
+    content: '';
+    display: block;
+    height: 170px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+    background: url(../img/section_curv2.png);
+    background-size: 100% 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+
+.section_overlay {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #1b99d6;
+    opacity: .25;
+    z-index: 0;
+}
+
+
+/*================================
+         // About 2 End
+==================================*/
